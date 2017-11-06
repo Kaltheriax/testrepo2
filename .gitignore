@@ -1,32 +1,37 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# build directories
+build*/
 
-# Precompiled Headers
-*.gch
-*.pch
+# backups
+*.orig
+*.bak
+*~
+*.back
+*.old
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# patch rejects
+*.rej
 
-# Fortran module files
-*.mod
-*.smod
+# K-Develop files
+*.kdev*
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# patches
+*.patch
+*.diff
 
-# Executables
-*.exe
-*.out
-*.app
+# vim files
+*.vim
+*.ycm*
+
+# Mercurial files (foreign dev)
+.hg/
+.hgignore
+.hgtags
+
+# database documentation - generated files
+doc/doxygen/Database/*.dox
+
+# IDEs and Tools
+.idea/
+.nbproject/
+.project
